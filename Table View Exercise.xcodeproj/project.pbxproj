@@ -13,6 +13,9 @@
 		5BD195CE237004EE00FAC5D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD195CD237004EE00FAC5D5 /* Assets.xcassets */; };
 		5BD195D1237004EE00FAC5D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD195CF237004EE00FAC5D5 /* LaunchScreen.storyboard */; };
 		5BD195D4237004EE00FAC5D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD195D3237004EE00FAC5D5 /* main.m */; };
+		5BD195DD237005E900FAC5D5 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD195DC237005E900FAC5D5 /* MyTableViewCell.m */; };
+		5BD195DF237005F500FAC5D5 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BD195DE237005F500FAC5D5 /* MyTableViewCell.xib */; };
+		5BD195E223700AF500FAC5D5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD195E123700AF500FAC5D5 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		5BD195D0237004EE00FAC5D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BD195D2237004EE00FAC5D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BD195D3237004EE00FAC5D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BD195DB237005E900FAC5D5 /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		5BD195DC237005E900FAC5D5 /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		5BD195DE237005F500FAC5D5 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		5BD195E023700AF500FAC5D5 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5BD195E123700AF500FAC5D5 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +66,13 @@
 		5BD195C3237004ED00FAC5D5 /* Table View Exercise */ = {
 			isa = PBXGroup;
 			children = (
+				5BD195DA237005BF00FAC5D5 /* Cell */,
 				5BD195C4237004ED00FAC5D5 /* AppDelegate.h */,
 				5BD195C5237004ED00FAC5D5 /* AppDelegate.m */,
 				5BD195C7237004ED00FAC5D5 /* ViewController.h */,
 				5BD195C8237004ED00FAC5D5 /* ViewController.m */,
+				5BD195E023700AF500FAC5D5 /* SecondViewController.h */,
+				5BD195E123700AF500FAC5D5 /* SecondViewController.m */,
 				5BD195CA237004ED00FAC5D5 /* Main.storyboard */,
 				5BD195CD237004EE00FAC5D5 /* Assets.xcassets */,
 				5BD195CF237004EE00FAC5D5 /* LaunchScreen.storyboard */,
@@ -69,6 +80,16 @@
 				5BD195D3237004EE00FAC5D5 /* main.m */,
 			);
 			path = "Table View Exercise";
+			sourceTree = "<group>";
+		};
+		5BD195DA237005BF00FAC5D5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5BD195DB237005E900FAC5D5 /* MyTableViewCell.h */,
+				5BD195DC237005E900FAC5D5 /* MyTableViewCell.m */,
+				5BD195DE237005F500FAC5D5 /* MyTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BD195D1237004EE00FAC5D5 /* LaunchScreen.storyboard in Resources */,
+				5BD195DF237005F500FAC5D5 /* MyTableViewCell.xib in Resources */,
 				5BD195CE237004EE00FAC5D5 /* Assets.xcassets in Resources */,
 				5BD195CC237004ED00FAC5D5 /* Main.storyboard in Resources */,
 			);
@@ -141,7 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BD195E223700AF500FAC5D5 /* SecondViewController.m in Sources */,
 				5BD195C9237004ED00FAC5D5 /* ViewController.m in Sources */,
+				5BD195DD237005E900FAC5D5 /* MyTableViewCell.m in Sources */,
 				5BD195D4237004EE00FAC5D5 /* main.m in Sources */,
 				5BD195C6237004ED00FAC5D5 /* AppDelegate.m in Sources */,
 			);
